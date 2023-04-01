@@ -1,0 +1,67 @@
+[colors.cursor]
+cursor = "#aaaaaa"
+text = "CellBackground"
+
+[colors.normal]
+black = "#000000"
+blue = "#0087ff"
+cyan = "#57ffff"
+green = "#87ff00"
+magenta = "#ff00ff"
+red = "#ff2700"
+white = "#ffffff"
+yellow = "#ffff87"
+
+[colors.primary]
+background = "#2c2c2c"
+foreground = "#ffffff"
+
+[cursor]
+thickness = 0.15
+vi_mode_style = "Block"
+
+[cursor.style]
+blinking = "Never"
+
+[font]
+size = 8.0
+
+[font.bold]
+family = "Roboto Mono Nerd Font"
+
+[font.bold_italic]
+family = "Roboto Mono Nerd Font"
+
+[font.italic]
+family = "Roboto Mono Nerd Font"
+
+[font.normal]
+family = "Roboto Mono Nerd Font"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "ScrollLineUp"
+key = "Up"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "Up"
+mods = "Alt|Shift"
+
+[[keyboard.bindings]]
+action = "ScrollLineDown"
+key = "Down"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "Down"
+mods = "Alt|Shift"
+
+[window.padding]
+x = 8
+y = 6
